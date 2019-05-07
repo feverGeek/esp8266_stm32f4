@@ -1,0 +1,26 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "${workspaceFolder}/SYSTEM/sys/**",
+                "${workspaceFolder}/SYSTEM/delay/**",
+                "${workspaceFolder}/SYSTEM/usart/**",
+                "${workspaceFolder}/USER/",
+                "F:\\cygwin64\\usr\\x86_64-w64-mingw32\\sys-root\\mingw\\include"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE",
+                "STM32F40_41xxx"
+            ],
+            "compilerPath": "F:\\cygwin64\\bin\\gcc.exe",
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "clang-x64"
+        }
+    ],
+    "version": 4
+}
